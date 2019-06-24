@@ -1,8 +1,16 @@
-.App {
+.background {
   background-image: linear-gradient(#667db6, #0082c8, #0082c8, #667db6);
   background-size: cover;
   height: 100%;
   width: 100%;
   align-content: center;
   position: fixed;
+}
+.pages{
+  font-family: Karla;
+  font-weight: 100;
+  text-align: center;
+  position: relative;
+  font-size: 2em;
+  color: white;
 }
