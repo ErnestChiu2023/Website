@@ -11,7 +11,6 @@ WebFont.load({
 })
 
 var App = class App extends React.Component{
-
   render(){
     return (
       <div className="App">
@@ -129,10 +128,9 @@ var App = class App extends React.Component{
             }}
           />
         </div>
-        <div className="pages">
+        <div className="pages page-styling">
           <Homepage />
         </div>
-
       </div>
     );
   };

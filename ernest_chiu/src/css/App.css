@@ -6,11 +6,15 @@
   align-content: center;
   position: fixed;
 }
-.pages{
+
+.page-styling{
   font-family: Karla;
   font-weight: 100;
   text-align: center;
-  position: relative;
+  position: fixed;
   font-size: 2em;
   color: white;
+  height: 100%;
+  width: 100%;
 }
+
