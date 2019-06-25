@@ -39,9 +39,9 @@ nav a:focus {
 .cl-effect-5 a span {
 	position: relative;
 	display: inline-block;
-	-webkit-transition: -webkit-transform 0.2s;
-	-moz-transition: -moz-transform 0.2s;
-	transition: transform 0.2s;
+	-webkit-transition: -webkit-transform 0.15s;
+	-moz-transition: -moz-transform 0.15s;
+	transition: transform 0.15s;
 }
 
 .cl-effect-5 a span::before {
