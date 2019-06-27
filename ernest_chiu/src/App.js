@@ -11,8 +11,15 @@ import Resume from './components/resume';
 import Projects from './components/projects';
 import Connect from './components/connect';
 import WorkExperience from './components/we';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import { bounce } from 'react-animations';
+import Radium, {StyleRoot} from 'radium';
 
+const styles = {
+   bounce: {
+     animation: 'x 1s', 
+     animationName: Radium.keyframes(bounce, 'bounce')
+   }
+}
 
 WebFont.load({
   google: {
@@ -139,13 +146,17 @@ const App = () =>{
               }}
             />
           </div>         
-                <Route exact path='/' component={Homepage}/>
-                <Sitenav />
-                <Route path='/about' component={About}/>
-                <Route path='/resume' component={Resume}/>
-                <Route path='/projects' component={Projects}/>
-                <Route path='/connect' component={Connect}/>
-                <Route path='/we' component={WorkExperience}/>
+               <StyleRoot>
+                <div style={styles.bounce}>
+                  <Route exact path='/' component={Homepage}/>
+                  <Sitenav />
+                  <Route path='/about' component={About}/>
+                  <Route path='/resume' component={Resume}/>
+                  <Route path='/projects' component={Projects}/>
+                  <Route path='/connect' component={Connect}/>
+                  <Route path='/we' component={WorkExperience}/>
+                </div>
+              </StyleRoot>
           </div>
       </Router>
     );
