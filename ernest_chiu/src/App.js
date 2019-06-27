@@ -11,13 +11,17 @@ import Resume from './components/resume';
 import Projects from './components/projects';
 import Connect from './components/connect';
 import WorkExperience from './components/we';
-import { bounce } from 'react-animations';
+import { bounce, lightSpeedIn } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
 
 const styles = {
    bounce: {
      animation: 'x 1s', 
      animationName: Radium.keyframes(bounce, 'bounce')
+   },
+   lightSpeedIn: {
+     animation: 'x 1s',
+     animationName: Radium.keyframes(lightSpeedIn, 'lightSpeedIn')
    }
 }
 
@@ -147,7 +151,7 @@ const App = () =>{
             />
           </div>         
                <StyleRoot>
-                <div style={styles.bounce}>
+                <div style={styles.lightSpeedIn}>
                   <Route exact path='/' component={Homepage}/>
                   <Sitenav />
                   <Route path='/about' component={About}/>
