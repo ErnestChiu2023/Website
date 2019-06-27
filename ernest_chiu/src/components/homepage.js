@@ -10,8 +10,9 @@ function Homepage(){
             <span className="name">
                 <Typed 
                     strings={['Ernest Chiu!']}
-                    typeSpeed={40}
+                    typeSpeed={60}
                     showCursor={false}
+                    startDelay={500}
                 />
             </span>
             <br/>

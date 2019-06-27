@@ -1,16 +1,12 @@
 import React from 'react';
 import '../css/about.css';
-import { bounce, lightSpeedIn } from 'react-animations';
+import { fadeInUp } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
 
 const styles = {
-  bounce: {
-    animation: 'x 1s', 
-    animationName: Radium.keyframes(bounce, 'bounce')
-  },
-  lightSpeedIn: {
-    animation: 'x 1s',
-    animationName: Radium.keyframes(lightSpeedIn, 'lightSpeedIn')
+  fadeInUp: {
+    animation: 'x .9s',
+    animationName: Radium.keyframes(fadeInUp, 'fadeInUp')
   }
 }
 
@@ -18,7 +14,7 @@ function About(){
     return(
         <div className="About">
           <StyleRoot>
-              <div style={styles.lightSpeedIn}>
+              <div style={styles.fadeInUp}>
                 <h1>About</h1>
               </div>
           </StyleRoot>

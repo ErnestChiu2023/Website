@@ -5,23 +5,18 @@ import Particles from 'react-particles-js';
 import WebFont from 'webfontloader';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Sitenav from './components/sitenav';
-import Pages from './components/pages';
 import About from './components/about';
 import Resume from './components/resume';
 import Projects from './components/projects';
 import Connect from './components/connect';
 import WorkExperience from './components/we';
-import { bounce, lightSpeedIn } from 'react-animations';
+import { fadeInUp } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
 
 const styles = {
-   bounce: {
-     animation: 'x 1s', 
-     animationName: Radium.keyframes(bounce, 'bounce')
-   },
-   lightSpeedIn: {
-     animation: 'x 1s',
-     animationName: Radium.keyframes(lightSpeedIn, 'lightSpeedIn')
+   fadeInUp: {
+     animation: 'x .9s',
+     animationName: Radium.keyframes(fadeInUp, 'fadeInUp')
    }
 }
 
@@ -30,6 +25,7 @@ WebFont.load({
     families: ['Karla', 'Nanum Gothic']
   }
 })
+
 
 
 const App = () =>{
@@ -151,7 +147,7 @@ const App = () =>{
             />
           </div>         
                <StyleRoot>
-                <div style={styles.lightSpeedIn}>
+                <div style={styles.fadeInUp}>
                   <Route exact path='/' component={Homepage}/>
                   <Sitenav />
                   <Route path='/about' component={About}/>
