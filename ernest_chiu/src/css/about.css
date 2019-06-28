@@ -1,5 +1,7 @@
-h1{
-    color: white;
+#title{
+    color:  #0082c8; 
     text-align: center;
     position: relative;
+    padding: 2%;
+    font-size: 2.5em;
 }

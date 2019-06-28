@@ -12,13 +12,13 @@ const styles = {
 
 function About(){
     return(
-        <div className="About">
           <StyleRoot>
-              <div style={styles.fadeInUp}>
-                <h1>About</h1>
+             <div className="About about_style">
+                <div style={styles.fadeInUp} >
+                  
+                </div>
               </div>
           </StyleRoot>
-        </div>
     )
 }
 

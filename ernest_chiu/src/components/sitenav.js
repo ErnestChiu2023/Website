@@ -10,11 +10,11 @@ function Sitenav(){
         <div>
             <nav className="cl-effect-5" id="nav_bar">
                 
-                <Link to="/about"><span data-hover="About">About</span></Link>
-                <Link to="/resume"><span data-hover="Resume">Resume</span></Link>
-                <Link to="/we"><span data-hover="Work Experience">Work Experience</span></Link>
-                <Link to="/projects"><span data-hover="Projects">Projects</span></Link>
-                <Link to="/connect"><span data-hover="Connect">Connect</span></Link>
+                <Link to="/pages/about"><span data-hover="About">About</span></Link>
+                <Link to="/pages/resume"><span data-hover="Resume">Resume</span></Link>
+                <Link to="/pages/we"><span data-hover="Work Experience">Work Experience</span></Link>
+                <Link to="/pages/projects"><span data-hover="Projects">Projects</span></Link>
+                <Link to="/pages/connect"><span data-hover="Connect">Connect</span></Link>
             </nav>
         </div>
     )

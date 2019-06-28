@@ -5,13 +5,9 @@ import Particles from 'react-particles-js';
 import WebFont from 'webfontloader';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Sitenav from './components/sitenav';
-import About from './components/about';
-import Resume from './components/resume';
-import Projects from './components/projects';
-import Connect from './components/connect';
-import WorkExperience from './components/we';
 import { fadeInUp } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
+import Pages from './components/pages';
 
 const styles = {
    fadeInUp: {
@@ -150,12 +146,8 @@ const App = () =>{
                 <div style={styles.fadeInUp}>
                   <Route exact path='/' component={Homepage}/>
                   <Sitenav />
-                  <Route path='/about' component={About}/>
-                  <Route path='/resume' component={Resume}/>
-                  <Route path='/projects' component={Projects}/>
-                  <Route path='/connect' component={Connect}/>
-                  <Route path='/we' component={WorkExperience}/>
                 </div>
+                <Route path='/pages' component={Pages} />
               </StyleRoot>
           </div>
       </Router>
