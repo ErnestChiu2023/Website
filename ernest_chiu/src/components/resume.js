@@ -21,7 +21,7 @@ function Resume() {
         <div className="Resume">
           <iframe
             title="Resume"
-            style={{ width: "50%", height: "1000px", margin: "0% 25vw" }}
+            style={{ width: "50%", height: "1200px", margin: "0% 25vw" }}
             src={PDFresume}
           />
         </div>
