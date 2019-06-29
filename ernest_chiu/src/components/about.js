@@ -40,8 +40,8 @@ function About() {
               <br />
               Feel free to contact me! Whether it's a{" "}
               <span className="newproject">new project</span> or <br />
-              you just want to <span className="hangout">hang out</span>☕
-              contact me through the links below.🙂
+              you just want to <span className="hangout">hang out</span>☕ you
+              can contact me through the links below.🙂
             </p>
             <div className="social">
               <SocialIcon
