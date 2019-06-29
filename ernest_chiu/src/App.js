@@ -4,21 +4,12 @@ import Homepage from './components/homepage';
 import Particles from 'react-particles-js';
 import WebFont from 'webfontloader';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Sitenav from './components/sitenav';
-import { fadeInUp } from 'react-animations';
-import Radium, {StyleRoot} from 'radium';
 import About from './components/about';
 import Resume from './components/resume';
 import Projects from './components/projects';
 import WorkExperience from './components/we';
 import Connect from './components/connect';
 
-const styles = {
-   fadeInUp: {
-     animation: 'x .9s',
-     animationName: Radium.keyframes(fadeInUp, 'fadeInUp')
-   }
-}
 
 WebFont.load({
   google: {
@@ -146,19 +137,14 @@ const App = () =>{
               }}
             />
           </div>         
-               <StyleRoot>
-                <div style={styles.fadeInUp}>
-                  <Route exact path='/' component={Homepage}/>
-                  <Sitenav />
-                </div>
+               <Route exact path='/' component={Homepage}/>
                 <Switch>
                     <Route path='/pages/about' component={About}/>
                     <Route path='/pages/resume' component={Resume}/>
                     <Route path='/pages/projects' component={Projects}/>
                     <Route path='/pages/connect' component={Connect}/>
-                    <Route path='/pages/we' component={WorkExperience}/>
+                    <Route path='/pages/Work Experience' component={WorkExperience}/>
                 </Switch>
-              </StyleRoot>
           </div>
       </Router>
     );

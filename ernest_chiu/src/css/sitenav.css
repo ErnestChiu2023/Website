@@ -3,3 +3,12 @@
     font-family: Karla;
     font-size: 2em;
 }
+
+.active span{
+    border-bottom: 3px solid white;
+    padding: 0 0 1px;
+}
+
+#nav_bar a{
+    height: 35px;
+}

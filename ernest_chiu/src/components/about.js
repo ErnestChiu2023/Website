@@ -5,7 +5,8 @@ import Radium, {StyleRoot} from 'radium';
 import Arrow from '../images/up.svg';
 import ReactSVG from 'react-svg';
 import posed from 'react-pose';
-
+import { Link } from 'react-router-dom';
+import Sitenav from './sitenav';
 
 const styles = {
   fadeInUp: {
@@ -14,35 +15,33 @@ const styles = {
   }
 }
 
-
 const Box = posed.div({
   hoverable: true,
   init: {
     scale: 1,
-    boxShadow: '0px 0px 0px rgba(0,0,0,0)'
   },
   hover: {
-    scale: 1.2,
-    boxShadow: '0px 5px 10px rgba(0,0,0,0.2)'
+    scale: 1.4,
   }
 });
-
-
 
 
 function About(){
     return(
           <StyleRoot>
+            <Sitenav page={"About"}/>
             <div style={styles.fadeInUp} >
              <div className="About about_style">
-                <Box className="Box">
-                <ReactSVG src={Arrow} 
-                  beforeInjection={svg => {
-                    svg.classList.add('arrow')
-                    svg.setAttribute('style', 'width: 150px; height: 125px')
-                  }}
-                  />
-                </Box>
+                <Link to="/">
+                  <Box className="Back">
+                    <ReactSVG src={Arrow} 
+                      beforeInjection={svg => {
+                        svg.classList.add('arrow')
+                        svg.setAttribute('style', 'width: 70px; height: 50px')
+                      }}
+                      />
+                  </Box>
+                </Link>
                
                 <h1 id="title">About me</h1>
               </div>
