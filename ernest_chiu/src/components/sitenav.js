@@ -24,10 +24,20 @@ class Sitenav extends React.Component{
         }); 
     }
 
+    home = () => {
+        if(this.state.pages.includes(this.state.name)){
+            return (<Link to="/"><span data-hover="Home">Home</span></Link>)
+        }
+        else{
+            return null;
+        }
+    }
+    
     render(){
         return(
             <div>
                 <nav className="cl-effect-5" id="nav_bar">
+                    <this.home />
                     <this.links />
                 </nav>
             </div>

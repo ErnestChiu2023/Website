@@ -1,13 +1,4 @@
-#title{
-    color:  #0082c8; 
-    text-align: center;
-    font-size: 2.5em;
-    padding: 1%;
-    position: relative;
-    float: left;
-    margin: 0% 5vh;
-    width: 80%;
-}
+
 
 .about_style{
     background-color: white;
@@ -16,12 +7,53 @@
     border-radius: 20px;
 }
 
-.Back{
-    float: left;
-    margin: 15px 10px;
+
+.intro p {
+    font-size: 18px;
+    margin-top: 1.5%;
 }
 
+.intro{
+    float: left;
+    padding: 2% 4%;
+    font-family: Karla;
+}
 
+.intro h3{
+    color: #373F51;
+    font-size: 25px;
+    margin-bottom: 0%;
+}
 
+.intro span{
+    font-size: 19px;
+    font-weight: bold;
+}
 
+.name{
+    color: #75CCC7;
+}
+.cs{
+    color: #F686BD;
+}
 
+.sd{
+    color: #386FA4;
+}
+
+.pool{
+    color: #E88D67;
+}
+.bowling{
+    color: #A9353E;
+}
+.newproject{
+    color: #F17300;
+}
+
+.hangout{
+    color: #27474E;
+}
+.img{
+    float: left;
+}

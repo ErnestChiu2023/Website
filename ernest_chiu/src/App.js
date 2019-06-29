@@ -10,14 +10,11 @@ import Projects from './components/projects';
 import WorkExperience from './components/we';
 import Connect from './components/connect';
 
-
 WebFont.load({
   google: {
     families: ['Karla', 'Nanum Gothic']
   }
 })
-
-
 
 const App = () =>{
     return (
