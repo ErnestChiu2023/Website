@@ -4,6 +4,7 @@ import { fadeInUp } from "react-animations";
 import Radium, { StyleRoot } from "radium";
 import Sitenav from "./sitenav";
 import { SocialIcon } from "react-social-icons";
+import Placeholder from "../images/placeholder.jpeg";
 
 const styles = {
   fadeInUp: {
@@ -72,7 +73,9 @@ function About() {
               />
             </div>
           </div>
-          <div className="img">image place holder</div>
+          <div className="img">
+            <img src={Placeholder} alt="A placeholder image" />
+          </div>
         </div>
       </div>
     </StyleRoot>

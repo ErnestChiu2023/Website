@@ -8,7 +8,6 @@ import About from "./components/about";
 import Resume from "./components/resume";
 import Projects from "./components/projects";
 import WorkExperience from "./components/we";
-import Connect from "./components/connect";
 
 WebFont.load({
   google: {
@@ -139,7 +138,6 @@ const App = () => {
           <Route path="/pages/about" component={About} />
           <Route path="/pages/resume" component={Resume} />
           <Route path="/pages/projects" component={Projects} />
-          <Route path="/pages/connect" component={Connect} />
           <Route path="/pages/Work Experience" component={WorkExperience} />
         </Switch>
       </div>

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 class Sitenav extends React.Component {
   state = {
     name: this.props.page,
-    pages: ["About", "Resume", "Work Experience", "Projects", "Connect"]
+    pages: ["About", "Resume", "Work Experience", "Projects"]
   };
 
   links = () => {

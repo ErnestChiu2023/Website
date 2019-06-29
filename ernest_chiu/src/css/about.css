@@ -14,14 +14,13 @@
   float: left;
   padding: 2% 4%;
   font-family: Karla;
-  margin: 6% 0%;
+  margin: 4% 0%;
   line-height: 30px;
 }
 
 .intro h3 {
   color: #373f51;
-  font-size: 25px;
-  margin-bottom: 0%;
+  font-size: 40px;
 }
 
 .intro span {
@@ -57,11 +56,20 @@
   color: #27474e;
 }
 
-.img {
-  float: left;
+.img img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .social-svg {
   margin: 0px 10px;
   padding: 10px 10px;
+}
+
+.img {
+  float: left;
+  width: 30vw;
+  height: 60vh;
+  margin: 5%;
+  margin-left: 10%;
 }
