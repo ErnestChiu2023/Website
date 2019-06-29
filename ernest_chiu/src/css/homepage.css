@@ -1,15 +1,14 @@
-.name{
-    font-size: 2.1em;
-    font-weight: bold;
+.name {
+  font-size: 2.1em;
+  font-weight: bold;
 }
 
-.home{
-    padding-top: 15%;
-    position: relative;
-    font-family: Karla;
-    font-weight: 100;
-    text-align: center;
-    font-size: 2.2em;
-    color: white;
+.home {
+  padding-top: 15%;
+  position: relative;
+  font-family: Karla;
+  font-weight: 100;
+  text-align: center;
+  font-size: 2.2em;
+  color: white;
 }
-
