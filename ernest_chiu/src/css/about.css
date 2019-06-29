@@ -1,59 +1,67 @@
-
-
-.about_style{
-    background-color: white;
-    min-height: 85vh;
-    margin: 0 5%;
-    border-radius: 20px;
+.about_style {
+  background-color: white;
+  min-height: 85vh;
+  margin: 0 5%;
+  border-radius: 20px;
 }
-
 
 .intro p {
-    font-size: 18px;
-    margin-top: 1.5%;
+  font-size: 18px;
+  margin-top: 1.5%;
 }
 
-.intro{
-    float: left;
-    padding: 2% 4%;
-    font-family: Karla;
+.intro {
+  float: left;
+  padding: 2% 4%;
+  font-family: Karla;
+  margin: 6% 0%;
+  line-height: 30px;
 }
 
-.intro h3{
-    color: #373F51;
-    font-size: 25px;
-    margin-bottom: 0%;
+.intro h3 {
+  color: #373f51;
+  font-size: 25px;
+  margin-bottom: 0%;
 }
 
-.intro span{
-    font-size: 19px;
-    font-weight: bold;
+.intro span {
+  font-size: 19px;
+  font-weight: bold;
 }
 
-.name{
-    color: #75CCC7;
-}
-.cs{
-    color: #F686BD;
+.nameintro {
+  color: #75ccc7;
 }
 
-.sd{
-    color: #386FA4;
+.cs {
+  color: #f686bd;
 }
 
-.pool{
-    color: #E88D67;
-}
-.bowling{
-    color: #A9353E;
-}
-.newproject{
-    color: #F17300;
+.sd {
+  color: #386fa4;
 }
 
-.hangout{
-    color: #27474E;
+.pool {
+  color: #e88d67;
 }
-.img{
-    float: left;
+
+.bowling {
+  color: #a9353e;
+}
+
+.newproject {
+  color: #f17300;
+}
+
+.hangout {
+  color: #27474e;
+}
+
+.img {
+  float: left;
+}
+
+.social-svg {
+  margin: 0px 10px;
+  padding: 10px 10px;
 }
