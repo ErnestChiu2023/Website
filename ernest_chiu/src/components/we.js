@@ -1,27 +1,19 @@
 import React from "react";
 import "../css/about.css";
 import Sitenav from "./sitenav";
-import Radium, { StyleRoot } from "radium";
-import { fadeInUp } from "react-animations";
+import Zoom from "react-reveal/Zoom";
 import "../css/we.css";
-
-const styles = {
-  fadeInUp: {
-    animation: "x .7s",
-    animationName: Radium.keyframes(fadeInUp, "fadeInUp")
-  }
-};
 
 function WorkExperience() {
   return (
-    <StyleRoot>
+    <div>
       <Sitenav page={"Work Experience"} />
-      <div style={styles.fadeInUp}>
+      <Zoom top>
         <div className="WorkExperience">
-          <h1>WorkExperience</h1>
+          <h1>Jana Technology</h1>
         </div>
-      </div>
-    </StyleRoot>
+      </Zoom>
+    </div>
   );
 }
 
