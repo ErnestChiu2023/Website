@@ -8,9 +8,9 @@ function WorkExperience() {
   return (
     <div>
       <Sitenav page={"Work Experience"} />
-      <Zoom top>
-        <div className="WorkExperience">
-          <h1>Jana Technology</h1>
+      <Zoom left>
+        <div className="Jana">
+          <h2>Jana Technology</h2>
         </div>
       </Zoom>
     </div>
