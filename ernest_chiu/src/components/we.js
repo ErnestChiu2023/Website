@@ -1,14 +1,11 @@
 import React from "react";
 import "../css/about.css";
 import Sitenav from "./sitenav";
+import Zoom from "react-reveal/Zoom";
+import "../css/we.css";
 
 function WorkExperience() {
-  return (
-    <div className="WorkExperience">
-      <Sitenav page={"Work Experience"} />
-      <h1>WorkExperience</h1>
-    </div>
-  );
+  return <div />;
 }
 
 export default WorkExperience;

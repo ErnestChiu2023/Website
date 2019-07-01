@@ -1,0 +1,28 @@
+.Jana {
+  background-color: white;
+  min-height: 25vh;
+  margin: 0 4vw;
+  border-radius: 20px;
+  margin-bottom: 2%;
+  overflow: auto;
+  width: 41vw;
+  float: left;
+}
+
+.Placeholder {
+  background-color: white;
+  min-height: 25vh;
+  margin: 0 4vw;
+  border-radius: 20px;
+  margin-bottom: 2%;
+  overflow: auto;
+  width: 41vw;
+  float: left;
+}
+
+h2 {
+  color: #0082c8;
+  font-size: 4vh;
+  margin: 0.5vh;
+  text-align: center;
+}

@@ -6,4 +6,5 @@
   align-content: center;
   position: fixed;
   z-index: -1;
+  overflow: hidden;
 }
