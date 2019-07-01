@@ -3,7 +3,7 @@ import "./css/App.css";
 import Homepage from "./components/homepage";
 import Particles from "react-particles-js";
 import WebFont from "webfontloader";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./components/about";
 import Resume from "./components/resume";
 import Projects from "./components/projects";
@@ -17,7 +17,7 @@ WebFont.load({
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/">
       <div className="App">
         <div className="background">
           <Particles
@@ -135,9 +135,9 @@ const App = () => {
         </div>
         <Route exact path="/" component={Homepage} />
         <Switch>
-          <Route path="/pages/about" component={About} />
-          <Route path="/pages/resume" component={Resume} />
-          <Route path="/pages/projects" component={Projects} />
+          <Route path="/pages/About" component={About} />
+          <Route path="/pages/Resume" component={Resume} />
+          <Route path="/pages/Projects" component={Projects} />
           <Route path="/pages/Work Experience" component={WorkExperience} />
         </Switch>
       </div>

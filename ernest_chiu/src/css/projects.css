@@ -43,13 +43,14 @@
 }
 
 .screenshot {
-  width: 500px;
-  height: 250px;
+  width: 50%;
+  height: 30%;
   border: solid;
   border-width: 5px;
-  margin: 1vh 6vw;
+  margin: 1vh auto;
   border-color: #25a1ff;
   border-radius: 10px;
+  display: block;
 }
 
 .animated {
