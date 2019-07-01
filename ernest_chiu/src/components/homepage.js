@@ -28,7 +28,7 @@ function Homepage() {
             />
           </span>
           <br />
-          {"A Computer Science Student at the University of Waterloo"}
+          {"A Computer Science undergraduate at the University of Waterloo"}
         </div>
         <Sitenav />
       </div>
