@@ -1,18 +1,23 @@
 .Jana {
   background-color: white;
-  min-height: 20vh;
+  min-height: 25vh;
   margin: 0 4vw;
   border-radius: 20px;
   margin-bottom: 2%;
   overflow: auto;
-  width: 40vw;
+  width: 41vw;
   float: left;
 }
 
-.Jana img {
-  height: 5vh;
-  margin: 0.5vh 0vw;
-  padding: 0.5vh 0vw;
+.Placeholder {
+  background-color: white;
+  min-height: 25vh;
+  margin: 0 4vw;
+  border-radius: 20px;
+  margin-bottom: 2%;
+  overflow: auto;
+  width: 41vw;
+  float: left;
 }
 
 h2 {

@@ -13,6 +13,31 @@ function WorkExperience() {
           <h2>Jana Technology</h2>
         </div>
       </Zoom>
+      <Zoom right>
+        <div className="Placeholder">
+          <h2>Coming Soon</h2>
+        </div>
+      </Zoom>
+      <Zoom left>
+        <div className="Placeholder">
+          <h2>Coming Soon</h2>
+        </div>
+      </Zoom>
+      <Zoom right>
+        <div className="Placeholder">
+          <h2>Coming Soon</h2>
+        </div>
+      </Zoom>
+      <Zoom left>
+        <div className="Placeholder">
+          <h2>Coming Soon</h2>
+        </div>
+      </Zoom>
+      <Zoom right>
+        <div className="Placeholder">
+          <h2>Coming Soon</h2>
+        </div>
+      </Zoom>
     </div>
   );
 }
