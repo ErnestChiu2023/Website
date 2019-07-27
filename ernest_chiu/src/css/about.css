@@ -165,11 +165,14 @@
     font-size: 1.75em;
   }
   .intro p {
-    font-size: 12px;
+    font-size: 14px;
+  }
+  .intro span {
+    font-size: 1.1em;
   }
 
   .intro {
-    height: 400px;
+    height: 500px;
     margin: 3px;
     line-height: 20px;
     width: 80vw;
@@ -189,12 +192,12 @@
   }
 
   .btn {
-    width: 30px;
-    height: 30px;
-    padding: 8px 8px;
+    width: 50px;
+    height: 50px;
+    padding: 12px 14px;
   }
   .btn i {
-    font-size: 15px;
+    font-size: 25px;
     transition: 0.2s linear;
   }
 }
