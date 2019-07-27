@@ -19,7 +19,7 @@ function Resume() {
             <img src={downloadPNG} className="download" />
           </div>
         </a>
-        <img src={ResumeIMG} className="Resume animated slideInUp" />
+        <img src={ResumeIMG} className="Resume" />
       </div>
     </div>
   );
