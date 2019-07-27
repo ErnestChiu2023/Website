@@ -3,6 +3,9 @@
   min-height: 85vh;
   margin: 0 5%;
   border-radius: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .intro p {
@@ -16,6 +19,7 @@
   font-family: Karla;
   margin: 4% 0%;
   line-height: 3vh;
+  width: 50vw;
 }
 
 .intro h3 {
@@ -56,9 +60,10 @@
   color: #27474e;
 }
 
-.img img {
+.picture img {
   max-width: 100%;
   max-height: 100%;
+  border-radius: 40px;
 }
 
 .social-svg {
@@ -130,6 +135,65 @@
 }
 
 @media screen and (max-width: 2200px) {
-  .img {
+  .intro p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1950px) {
+  .intro p {
+    font-size: 15px;
+  }
+  .intro span {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .intro p {
+    font-size: 20px;
+  }
+
+  .picture {
+    width: 37vw;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .intro h3 {
+    font-size: 1.75em;
+  }
+  .intro p {
+    font-size: 12px;
+  }
+
+  .intro {
+    height: 450px;
+    margin: 3px;
+    line-height: 20px;
+  }
+
+  .picture {
+    width: 37vw;
+    height: auto;
+  }
+
+  .social {
+    margin-top: 10px;
+  }
+
+  .btn {
+    margin: 5px;
+  }
+
+  .btn {
+    width: 30px;
+    height: 30px;
+    padding: 8px 8px;
+  }
+  .btn i {
+    font-size: 15px;
+    transition: 0.2s linear;
   }
 }

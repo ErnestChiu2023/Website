@@ -28,7 +28,7 @@ h1 {
   color: #0082c8;
   height: 4vh;
   position: absolute;
-  left: 67vw;
+  left: 65vw;
   top: 7vh;
   border-width: 2px;
   z-index: 1;
@@ -43,10 +43,40 @@ h1 {
 }
 
 .download {
-  height: 100%;
-  width: auto;
+  height: 20px;
+  width: 20px;
 }
 
 a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 1650px) {
+  .container .download_button {
+    left: 60vw;
+    height: 3vh;
+  }
+  .download {
+    height: 15px;
+    width: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container .download_button {
+    left: 70vw;
+    height: 2vh;
+    top: 12vh;
+    font-size: 10px;
+    border-width: 1px;
+  }
+  .download {
+    height: 10px;
+    width: 10px;
+  }
+  .Resume {
+    top: 50px;
+    height: 100%;
+    width: 100%;
+  }
 }
