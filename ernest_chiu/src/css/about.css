@@ -160,7 +160,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .intro h3 {
     font-size: 1.75em;
   }
@@ -169,7 +169,7 @@
   }
 
   .intro {
-    height: 450px;
+    height: 400px;
     margin: 3px;
     line-height: 20px;
     width: 80vw;

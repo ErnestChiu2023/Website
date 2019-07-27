@@ -32,7 +32,7 @@ function Homepage() {
             A Computer Science undergraduate at the University of Waterloo
           </span>
         </div>
-        <Sitenav />
+        <Sitenav page={"Home"} />
       </div>
     </StyleRoot>
   );

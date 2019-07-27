@@ -15,12 +15,28 @@
   margin: 1vh 2vw;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 500px) {
   #nav_bar {
-    font-size: 1em;
+    padding: 5px 0px;
+    font-size: 1.5em;
   }
 
   #nav_bar a {
-    height: 15px;
+    height: 25px;
+  }
+  .nav_div {
+    display: flexbox;
+    width: 150px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #nav_bar {
+    font-size: 1.4em;
+  }
+
+  #nav_bar a {
+    height: 20px;
   }
 }

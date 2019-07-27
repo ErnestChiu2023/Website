@@ -6,7 +6,8 @@ import { Link } from "react-router-dom";
 class Sitenav extends React.Component {
   state = {
     name: this.props.page,
-    pages: ["About", "Resume", "Projects"]
+    pages: ["About", "Resume", "Projects"],
+    homepage: ""
   };
 
   links = () => {
@@ -39,9 +40,22 @@ class Sitenav extends React.Component {
     }
   };
 
+  check = () => {
+    if (this.state.name == "Home") {
+      {
+        this.setState({
+          homepage: "nav_div"
+        });
+      }
+    }
+  };
+
+  componentDidMount() {
+    this.check();
+  }
   render() {
     return (
-      <div>
+      <div className={this.state.homepage}>
         <nav className="cl-effect-5" id="nav_bar">
           <this.home />
           <this.links />

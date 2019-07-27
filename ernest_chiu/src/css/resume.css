@@ -7,6 +7,7 @@ h1 {
 .container {
   display: flex;
   justify-content: center;
+  height: 100%;
 }
 
 .Resume {
@@ -66,17 +67,18 @@ a {
   .container .download_button {
     left: 70vw;
     height: 2vh;
-    top: 12vh;
+    top: 10vh;
     font-size: 10px;
     border-width: 1px;
   }
+
   .download {
     height: 10px;
     width: 10px;
   }
   .Resume {
     top: 50px;
-    height: 100%;
+    height: auto;
     width: 100%;
   }
 }
