@@ -3,3 +3,48 @@ h1 {
   text-align: center;
   position: relative;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 50%;
+  height: auto;
+}
+
+.container .download_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  background: white;
+  border-color: #0082c8;
+  border-radius: 30px;
+  padding: 1vh;
+  font-family: Karla;
+  color: #0082c8;
+  height: 4vh;
+  position: relative;
+  left: 49vw;
+  top: 2vh;
+  border-width: 2px;
+}
+
+.container .download_button:hover {
+  cursor: pointer;
+}
+
+.container span {
+  margin-right: 10px;
+}
+
+.download {
+  height: 100%;
+  width: auto;
+}
+
+a {
+  text-decoration: none;
+}

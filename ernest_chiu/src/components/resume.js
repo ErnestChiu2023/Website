@@ -1,9 +1,12 @@
 import React from "react";
 import "../css/resume.css";
 import Sitenav from "./sitenav";
-import PDFresume from "../pdf/ErnestChiuResume.pdf";
+import ResumeIMG from "../images/ErnestChiuResume.jpg";
+import PDF from "../pdf/ErnestChiuResume.pdf";
+import downloadPNG from "../images/download.png";
 import { fadeInUp } from "react-animations";
 import Radium, { StyleRoot } from "radium";
+import "hover.css";
 
 const styles = {
   fadeInUp: {
@@ -17,12 +20,14 @@ function Resume() {
     <StyleRoot>
       <Sitenav page={"Resume"} />
       <div style={styles.fadeInUp} className="animation">
-        <div className="Resume">
-          <iframe
-            title="Resume"
-            style={{ width: "50%", height: "1200px", margin: "0% 25vw" }}
-            src={PDFresume}
-          />
+        <div className="container">
+          <a href={PDF}>
+            <div className="download_button hvr-grow">
+              <span>Downlaod PDF</span>
+              <img src={downloadPNG} className="download" />
+            </div>
+          </a>
+          <img src={ResumeIMG} />
         </div>
       </div>
     </StyleRoot>
