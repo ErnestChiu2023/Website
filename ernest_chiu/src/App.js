@@ -23,11 +23,12 @@ const App = () => {
           <Particles
             params={{
               particles: {
+                nb: 80,
                 number: {
                   value: 40,
                   density: {
                     enable: true,
-                    value_area: 1000
+                    value_area: 500
                   }
                 },
                 color: {
@@ -91,7 +92,7 @@ const App = () => {
                 }
               },
               interactivity: {
-                detect_on: "window",
+                detect_on: "canvas",
                 events: {
                   onhover: {
                     enable: false,
@@ -100,6 +101,11 @@ const App = () => {
                   onclick: {
                     enable: false,
                     mode: "push"
+                  },
+                  onresize: {
+                    enable: true,
+                    density_auto: true,
+                    density_area: 400
                   },
                   resize: true
                 },
