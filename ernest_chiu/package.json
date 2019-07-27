@@ -16,6 +16,7 @@
     "react-scripts": "3.0.1",
     "react-svg": "^10.0.9",
     "react-typed": "^1.1.2",
+    "simple-line-icons": "^2.4.1",
     "webfontloader": "^1.6.28"
   },
   "scripts": {

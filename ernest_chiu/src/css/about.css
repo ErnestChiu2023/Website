@@ -66,9 +66,19 @@
   padding: 10px 10px;
 }
 
-.img {
+.picture {
   float: left;
   width: 30vw;
   height: 60vh;
   margin: 5vw;
+}
+
+.SocialIcon {
+  height: 200px;
+  width: 200px;
+}
+
+@media screen and (max-width: 2200px) {
+  .img {
+  }
 }

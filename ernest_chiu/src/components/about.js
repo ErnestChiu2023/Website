@@ -73,7 +73,7 @@ function About() {
               />
             </div>
           </div>
-          <div className="img">
+          <div className="picture">
             <img src={Placeholder} alt="A placeholder image" />
           </div>
         </div>
