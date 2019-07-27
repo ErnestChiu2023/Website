@@ -24,24 +24,21 @@ function About() {
             <p>
               My name is <span className="nameintro">Ernest Chiu</span> and I'm
               an aspiring <span className="cs">Computer Scientist</span>{" "}
-              interested <br />
-              in <span className="sd">Software Development</span> 💻.To
-              accomplish my goals, I'm always actively looking
-              <br />
-              for new opportunities to learn and expand my knowledge in the
-              field!
+              interested in <span className="sd">Software Development</span>{" "}
+              💻.To accomplish my goals, I'm always actively looking for new
+              opportunities to learn and expand my knowledge in the field!
               <br />
               <br />
               On my free time, I like to hang out with friends to play{" "}
               <span className="pool">pool</span>🎱 or{" "}
-              <span className="bowling">bowling</span>🎳. <br />
-              Other times, I like to stay home to code, read, and play video
-              games! <br />
+              <span className="bowling">bowling</span>🎳. Other times, I like to
+              stay home to code, read, and play video games!
+              <br />
               <br />
               Feel free to contact me! Whether it's a{" "}
-              <span className="newproject">new project</span> or <br />
-              you just want to <span className="hangout">hang out</span>☕ you
-              can contact me through the links below.🙂
+              <span className="newproject">new project</span> or you just want
+              to <span className="hangout">hang out</span>☕ you can contact me
+              through the links below.🙂
             </p>
             <div className="social">
               <a class="btn" href="https://www.facebook.com/ernest.chiu.9">
