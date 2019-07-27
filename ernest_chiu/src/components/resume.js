@@ -23,11 +23,11 @@ function Resume() {
         <div className="container">
           <a href={PDF}>
             <div className="download_button hvr-grow">
-              <span>Downlaod PDF</span>
+              <span>Download PDF</span>
               <img src={downloadPNG} className="download" />
             </div>
           </a>
-          <img src={ResumeIMG} />
+          <img src={ResumeIMG} className="Resume" />
         </div>
       </div>
     </StyleRoot>

@@ -17,18 +17,20 @@ function Homepage() {
     <StyleRoot>
       <div style={styles.fadeInUp}>
         <div className="homepage home">
-          {"Hello World, I'm"}
-          <br />
+          <span className="text">Hello World, I'm</span>
+
           <span className="name">
             <Typed
               strings={["Ernest Chiu!"]}
-              typeSpeed={60}
-              showCursor={false}
-              startDelay={500}
+              typeSpeed={100}
+              showCursor={true}
+              startDelay={0}
             />
           </span>
-          <br />
-          {"A Computer Science undergraduate at the University of Waterloo"}
+
+          <span className="bottom_text">
+            A Computer Science undergraduate at the University of Waterloo
+          </span>
         </div>
         <Sitenav />
       </div>

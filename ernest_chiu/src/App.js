@@ -11,7 +11,7 @@ import WorkExperience from "./components/we";
 
 WebFont.load({
   google: {
-    families: ["Karla", "Nanum Gothic", "Open Sans"]
+    families: ["Karla", "Nanum Gothic", "Open Sans", "Raleway:extra-bold"]
   }
 });
 

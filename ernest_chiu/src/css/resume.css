@@ -9,9 +9,10 @@ h1 {
   justify-content: center;
 }
 
-img {
+.Resume {
   width: 50%;
   height: auto;
+  position: relative;
 }
 
 .container .download_button {
@@ -26,10 +27,11 @@ img {
   font-family: Karla;
   color: #0082c8;
   height: 4vh;
-  position: relative;
-  left: 49vw;
-  top: 2vh;
+  position: absolute;
+  left: 67vw;
+  top: 7vh;
   border-width: 2px;
+  z-index: 1;
 }
 
 .container .download_button:hover {

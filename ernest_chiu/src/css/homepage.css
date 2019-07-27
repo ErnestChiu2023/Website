@@ -1,14 +1,27 @@
 .name {
-  font-size: 2.5em;
-  font-weight: bold;
+  font-size: 4em;
+  font-weight: bolder;
+  font-family: Raleway;
+  margin: 3vh;
+  display: block;
 }
 
 .home {
-  padding-top: 15%;
+  padding-top: 25vh;
   position: relative;
   font-family: Karla;
   font-weight: 100;
   text-align: center;
   font-size: 1.8em;
-  color: white;
+  color: #fbfdfb;
+}
+
+.bottom_text,
+.text {
+  opacity: 0.75;
+}
+
+.bottom_text {
+  display: block;
+  margin-bottom: 2vh;
 }
