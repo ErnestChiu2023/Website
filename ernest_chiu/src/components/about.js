@@ -44,33 +44,21 @@ function About() {
               can contact me through the links below.🙂
             </p>
             <div className="social">
-              <SocialIcon
-                url="http://www.linkedin.com/in/ernestchiu2023"
-                network="linkedin"
-                style={{ height: 80, width: 80 }}
-              />
-              <SocialIcon
-                url="https://github.com/ErnestChiu2023"
-                network="github"
-                style={{ height: 80, width: 80 }}
-                bgColor="black"
-              />
-              <SocialIcon
-                url="mailto: ernestchiu@hotmail.ca"
-                network="email"
-                style={{ height: 80, width: 80 }}
-                bgColor="#FF5353"
-              />
-              <SocialIcon
-                url="https://www.facebook.com/ernest.chiu.9"
-                network="facebook"
-                style={{ height: 80, width: 80 }}
-              />
-              <SocialIcon
-                url="https://www.instagram.com/chiu.ernest/"
-                network="instagram"
-                style={{ height: 80, width: 80 }}
-              />
+              <a class="btn" href="https://www.facebook.com/ernest.chiu.9">
+                <i class="fab fa-facebook-f" />
+              </a>
+              <a class="btn" href="mailto:%20ernestchiu@hotmail.ca">
+                <i class="far fa-envelope" />
+              </a>
+              <a class="btn" href="https://github.com/ErnestChiu2023">
+                <i class="fab fa-github" />
+              </a>
+              <a class="btn" href="https://www.instagram.com/chiu.ernest/">
+                <i class="fab fa-instagram" />
+              </a>
+              <a class="btn" href="https://www.linkedin.com/in/ernestchiu2023/">
+                <i class="fab fa-linkedin" />
+              </a>
             </div>
           </div>
           <div className="picture">
