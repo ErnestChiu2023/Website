@@ -27,7 +27,7 @@ const App = () => {
                   value: 40,
                   density: {
                     enable: true,
-                    value_area: 1000
+                    value_area: 800
                   }
                 },
                 color: {
@@ -70,7 +70,7 @@ const App = () => {
                 },
                 line_linked: {
                   enable: true,
-                  distance: 200,
+                  distance: 150,
                   color: "#ffffff",
                   opacity: 0.4,
                   width: 1
