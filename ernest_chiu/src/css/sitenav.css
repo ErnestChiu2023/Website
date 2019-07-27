@@ -14,3 +14,13 @@
   height: 35px;
   margin: 1vh 2vw;
 }
+
+@media screen and (max-width: 992px) {
+  #nav_bar {
+    font-size: 1em;
+  }
+
+  #nav_bar a {
+    height: 15px;
+  }
+}

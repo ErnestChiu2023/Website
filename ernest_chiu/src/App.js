@@ -23,12 +23,11 @@ const App = () => {
           <Particles
             params={{
               particles: {
-                nb: 80,
                 number: {
                   value: 40,
                   density: {
                     enable: true,
-                    value_area: 500
+                    value_area: 1000
                   }
                 },
                 color: {
@@ -71,14 +70,14 @@ const App = () => {
                 },
                 line_linked: {
                   enable: true,
-                  distance: 150,
+                  distance: 200,
                   color: "#ffffff",
                   opacity: 0.4,
                   width: 1
                 },
                 move: {
                   enable: true,
-                  speed: 2,
+                  speed: 1,
                   direction: "none",
                   random: false,
                   straight: false,

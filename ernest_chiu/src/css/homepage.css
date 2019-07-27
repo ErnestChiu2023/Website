@@ -25,3 +25,13 @@
   display: block;
   margin-bottom: 2vh;
 }
+
+@media screen and (max-width: 992px) {
+  .name {
+    font-size: 3em;
+    margin: 2vh;
+  }
+  .home {
+    font-size: 1em;
+  }
+}
