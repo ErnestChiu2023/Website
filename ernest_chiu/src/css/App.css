@@ -9,7 +9,7 @@
   overflow: hidden;
 }
 
-.logo canvas {
+.background canvas {
   background-size: cover;
   height: 100%;
   width: 100%;
