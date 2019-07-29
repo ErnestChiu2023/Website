@@ -1,61 +1,94 @@
-.ProjectBox {
-  background-color: white;
-  min-height: 25vh;
-  margin: 0 4vw;
-  border-radius: 3px;
-  margin-bottom: 4%;
-  overflow: auto;
-  width: 41vw;
-  float: left;
-  font-family: "Open Sans";
-  padding: 2vh;
+.card {
+  height: 30vh;
+  width: 30vw;
+  background: white;
+  border-radius: 10px;
+  margin: 0px 5vw 5vh;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
 }
 
-.Projects {
-  height: 100%;
-  overflow: hidden;
-  clear: both;
+.card:hover,
+.card:focus,
+.card:active {
+  transform: scale(1.05);
 }
 
-.ProjectBox :hover {
+.logo {
+  height: 20vh;
+  width: 10vw;
+  background: #0894e0f6;
+  position: relative;
+  right: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.cloud {
+  background-image: url(../images/cloud.png);
+  background-size: auto 100%;
+}
+
+.tasks {
+  background-image: url(../images/tasks.png);
+  background-size: auto 70%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.pig {
+  background-image: url(../images/pig.png);
+  background-size: auto 90%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.text h3 {
+  font-family: Raleway;
+}
+
+.text {
+  width: 20vw;
+  font-family: karla;
+  padding: 2vw;
+}
+
+.tags span {
+  border-radius: 10px;
+  border-style: solid;
+  padding: 5px;
+  border-width: 1px;
+  font-size: 12px;
+}
+
+.More {
+  text-align: center;
+  margin: 20px 70px;
+  color: white;
+  background: #0082c8;
+  width: 7vw;
+  padding: 10px;
+  border-radius: 20px;
+  align-self: center;
+}
+
+.More:hover {
   cursor: pointer;
 }
 
-.ProjectBox h3 {
-  text-align: center;
-  font-size: 2.2em;
-  margin: 1vh;
-  color: #41505d;
-}
-
-.ProjectBox p {
-  text-align: center;
-  margin: 1.5vh;
-}
-
-.ProjectBox p span {
-  border: solid;
-  border-color: black;
-  border-width: 2px;
-  padding: 5px;
-  border-radius: 3px;
-  margin: 0.2vw;
-}
-
-.screenshot {
-  width: 50%;
-  height: 30%;
-  border: solid;
-  border-width: 5px;
-  margin: 1vh auto;
-  border-color: #25a1ff;
-  border-radius: 10px;
-  display: block;
-}
-
-.animated {
-  overflow: hidden;
-  clear: both;
-  float: left;
-  margin: 0% auto;
+.projects canvas {
+  max-height: 20vh;
+  max-width: 10vw;
 }
