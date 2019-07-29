@@ -13,10 +13,12 @@ function Resume() {
       <Sitenav page={"Resume"} />
 
       <div className="container animated slideInUp">
-        <div className="download_button hvr-grow">
-          <span>Download PDF</span>
-          <img src={downloadPNG} className="download" />
-        </div>
+        <a href={PDF}>
+          <div className="download_button hvr-grow">
+            <span>Download PDF</span>
+            <img src={downloadPNG} className="download" />
+          </div>
+        </a>
         <div className="image">
           <img src={ResumeIMG} className="Resume" />
         </div>
