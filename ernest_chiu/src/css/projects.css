@@ -7,6 +7,18 @@
   display: flex;
   flex-flow: row;
   align-items: center;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  transform: scale(1.05);
 }
 
 .logo {
@@ -17,6 +29,25 @@
   right: 30px;
   border-radius: 10px;
   box-shadow: 5px 5px 5px grey;
+}
+
+.cloud {
+  background-image: url(../images/cloud.png);
+  background-size: auto 100%;
+}
+
+.tasks {
+  background-image: url(../images/tasks.png);
+  background-size: auto 70%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.pig {
+  background-image: url(../images/pig.png);
+  background-size: auto 90%;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .container {

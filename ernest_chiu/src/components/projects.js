@@ -9,9 +9,9 @@ function Projects() {
   return (
     <div className="projects">
       <Sitenav page={"Projects"} />
-      <div className="container">
+      <div className="container  animated slideInUp">
         <div className="card">
-          <div className="logo">
+          <div className="logo cloud">
             <Particles
               params={{
                 particles: {
@@ -143,11 +143,13 @@ function Projects() {
               <span>Node.JS</span>
               <span>Express</span>
             </div>
-            <div className="More hvr-grow">Learn More</div>
+            <a href="https://github.com/ErnestChiu2023/Money-Manager">
+              <div className="More hvr-grow">Learn More</div>
+            </a>
           </div>
         </div>
         <div className="card">
-          <div className="logo">
+          <div className="logo tasks">
             <Particles
               params={{
                 particles: {
@@ -278,11 +280,13 @@ function Projects() {
               <span>HTML</span>
               <span>css</span>
             </div>
-            <div className="More hvr-grow">Learn More</div>
+            <a href="https://github.com/ErnestChiu2023/everydayapp">
+              <div className="More hvr-grow">Learn More</div>
+            </a>
           </div>
         </div>
         <div className="card">
-          <div className="logo">
+          <div className="logo pig">
             <Particles
               params={{
                 particles: {
@@ -411,7 +415,9 @@ function Projects() {
               <span>Node.JS</span>
               <span>Express</span>
             </div>
-            <div className="More hvr-grow">Learn More</div>
+            <a href="https://github.com/ErnestChiu2023/Accomplishly">
+              <div className="More hvr-grow">Learn More</div>
+            </a>
           </div>
         </div>
       </div>
