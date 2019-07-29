@@ -28,9 +28,9 @@ h1 {
   font-family: Karla;
   color: #0082c8;
   height: 4vh;
-  position: absolute;
   left: 65vw;
-  top: 5vh;
+  position: absolute;
+  top: 3vh;
   border-width: 2px;
   z-index: 1;
 }
@@ -49,15 +49,10 @@ h1 {
   position: relative;
 }
 
-a {
-  text-decoration: none;
-}
-
 .image {
-  text-align: center;
   max-width: 50%;
   position: relative;
-  margin-bottom: 50px;
+  margin: 0 auto 50px;
 }
 
 @media screen and (max-width: 1650px) {
