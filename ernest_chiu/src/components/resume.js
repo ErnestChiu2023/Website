@@ -12,7 +12,7 @@ function Resume() {
     <div>
       <Sitenav page={"Resume"} />
 
-      <div className="container">
+      <div className="container animated slideInUp">
         <a href={PDF}>
           <div className="download_button hvr-grow">
             <span>Download PDF</span>

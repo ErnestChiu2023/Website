@@ -30,7 +30,7 @@ h1 {
   height: 4vh;
   position: absolute;
   left: 65vw;
-  top: 10vh;
+  top: 5vh;
   border-width: 2px;
   z-index: 1;
 }
@@ -64,7 +64,7 @@ a {
   .container .download_button {
     left: 80vw;
     height: 3vh;
-    top: 15vh;
+    top: 10vh;
   }
   .download {
     height: 15px;
@@ -88,9 +88,9 @@ a {
 
 @media screen and (max-width: 500px) {
   .container .download_button {
-    left: 70vw;
+    left: 65vw;
     height: 2vh;
-    top: 7vh;
+    top: 6vh;
     font-size: 10px;
     border-width: 1px;
   }
