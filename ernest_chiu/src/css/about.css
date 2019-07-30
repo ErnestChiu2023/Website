@@ -1,7 +1,7 @@
 .about_style {
   background-color: white;
   min-height: 85vh;
-  margin: 0 5%;
+  margin: 0 5% 10px;
   border-radius: 20px;
   display: flex;
   flex-flow: row wrap;

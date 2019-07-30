@@ -63,6 +63,7 @@
 
 .text h3 {
   font-family: Raleway;
+  opacity: 0.75;
 }
 
 .text {
@@ -163,14 +164,16 @@
   .card {
     min-width: 200px;
     min-height: 100px;
-    margin: 0px 10px 5vh;
+    margin: 0px 0px 5vh 10px;
   }
   .text {
     width: 250px;
     font-size: 12px;
+    padding-left: 0px;
   }
   .text span {
     font-size: 8px;
+    border-width: 0.4px;
   }
 
   .logo {
@@ -195,12 +198,10 @@
   .text {
     width: 200px;
     font-size: 11px;
-    padding-left: 0px;
   }
   .text span {
     font-size: 7px;
     margin: 4px;
-    border-width: 0.4px;
   }
 
   .logo {
