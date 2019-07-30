@@ -11,7 +11,7 @@ function Projects() {
       <Sitenav page={"Projects"} />
       <div className="container  animated slideInUp">
         <div className="card">
-          <div className="logo cloud">
+          <div className="logo pig">
             <Particles
               params={{
                 particles: {
@@ -149,7 +149,7 @@ function Projects() {
           </div>
         </div>
         <div className="card">
-          <div className="logo tasks">
+          <div className="logo cloud">
             <Particles
               params={{
                 particles: {
@@ -286,7 +286,7 @@ function Projects() {
           </div>
         </div>
         <div className="card">
-          <div className="logo pig">
+          <div className="logo tasks">
             <Particles
               params={{
                 particles: {

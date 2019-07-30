@@ -17,7 +17,7 @@ function Homepage() {
     <StyleRoot>
       <div style={styles.fadeInUp}>
         <div className="homepage home">
-          <span className="text">Hello World, I'm</span>
+          <span className="top_text">Hello World, I'm</span>
 
           <span className="name">
             <Typed

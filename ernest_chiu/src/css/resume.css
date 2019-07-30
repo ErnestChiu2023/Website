@@ -58,12 +58,13 @@ h1 {
 @media screen and (max-width: 1650px) {
   .container .download_button {
     left: 80vw;
-    height: 3vh;
-    top: 10vh;
+    height: 5vh;
+    top: 15vh;
+    font-size: 20px;
   }
   .download {
-    height: 15px;
-    width: 15px;
+    height: 25px;
+    width: 25px;
   }
   .image {
     top: 70px;
@@ -71,9 +72,25 @@ h1 {
     height: auto;
   }
 }
+
+@media screen and (max-width: 1100px) {
+  .container .download_button {
+    left: 80vw;
+    height: 5vh;
+    top: 12vh;
+    font-size: 15px;
+  }
+  .download {
+    height: 20px;
+    width: 20px;
+  }
+}
 @media screen and (max-width: 800px) {
   .container .download_button {
     font-size: 12px;
+    height: 4vh;
+    left: 70vw;
+    top: 10vh;
   }
   .download {
     height: 10px;

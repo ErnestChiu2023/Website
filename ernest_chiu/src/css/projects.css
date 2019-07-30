@@ -97,3 +97,123 @@
 .card canvas {
   position: fixed;
 }
+
+@media screen and (max-width: 1745px) {
+  .text {
+    width: 500px;
+  }
+  .More {
+    width: 150px;
+  }
+  .logo {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    min-width: 200px;
+    min-height: 150px;
+    margin: 0px 50px 10vh;
+  }
+  .text {
+    width: 350px;
+    font-size: 0.9em;
+  }
+  .logo {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    min-width: 200px;
+    min-height: 150px;
+    margin: 0px 10px 5vh;
+  }
+  .text {
+    width: 300px;
+    font-size: 14px;
+  }
+  .text span {
+    font-size: 10px;
+  }
+  .text p {
+    margin-top: 6px;
+  }
+  .logo {
+    width: 120px;
+    height: 120px;
+  }
+  .text h3 {
+    margin: 6px 0px 0px;
+    font-size: 15px;
+  }
+  .More {
+    height: 25px;
+    padding: 5px;
+    margin-left: 50px;
+    font-size: 12px;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    min-width: 200px;
+    min-height: 100px;
+    margin: 0px 10px 5vh;
+  }
+  .text {
+    width: 250px;
+    font-size: 12px;
+  }
+  .text span {
+    font-size: 8px;
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+  .text h3 {
+    font-size: 13px;
+  }
+  .More {
+    margin: 15px 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card {
+    min-width: 150px;
+    min-height: 50px;
+    margin: 0px 10px 5vh;
+    padding-right: 10px;
+  }
+  .text {
+    width: 200px;
+    font-size: 11px;
+    padding-left: 0px;
+  }
+  .text span {
+    font-size: 7px;
+    margin: 4px;
+    border-width: 0.4px;
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+  .text h3 {
+    font-size: 12px;
+  }
+  .More {
+    font-size: 10px;
+    height: 20px;
+    width: 80px;
+    margin: 10px 40px;
+  }
+}
