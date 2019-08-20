@@ -138,10 +138,11 @@ function Projects() {
               balance.
             </p>
             <div className="tags">
-              <span>React.JS</span>
+              <span>React</span>
               <span>MongoDB</span>
               <span>Node.JS</span>
               <span>Express</span>
+              <span>Heroku</span>
             </div>
             <a href="https://github.com/ErnestChiu2023/Money-Manager">
               <div className="More hvr-grow">Learn More</div>
@@ -275,7 +276,7 @@ function Projects() {
               useful information such as weather and tasks.
             </p>
             <div className="tags">
-              <span>React.JS</span>
+              <span>React</span>
               <span>Axios.JS</span>
               <span>HTML</span>
               <span>css</span>
