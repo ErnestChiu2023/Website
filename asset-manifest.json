@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Website/static/css/main.ce25105e.chunk.css",
+    "main.js": "/Website/static/js/main.d38c3433.chunk.js",
+    "main.js.map": "/Website/static/js/main.d38c3433.chunk.js.map",
+    "runtime~main.js": "/Website/static/js/runtime~main.9e351133.js",
+    "runtime~main.js.map": "/Website/static/js/runtime~main.9e351133.js.map",
+    "static/css/2.84339573.chunk.css": "/Website/static/css/2.84339573.chunk.css",
+    "static/js/2.094ed4cd.chunk.js": "/Website/static/js/2.094ed4cd.chunk.js",
+    "static/js/2.094ed4cd.chunk.js.map": "/Website/static/js/2.094ed4cd.chunk.js.map",
+    "index.html": "/Website/index.html",
+    "precache-manifest.303201f5f228eca0683c0077698098b4.js": "/Website/precache-manifest.303201f5f228eca0683c0077698098b4.js",
+    "service-worker.js": "/Website/service-worker.js",
+    "static/css/2.84339573.chunk.css.map": "/Website/static/css/2.84339573.chunk.css.map",
+    "static/css/main.ce25105e.chunk.css.map": "/Website/static/css/main.ce25105e.chunk.css.map",
+    "static/media/ErnestChiuResume.pdf": "/Website/static/media/ErnestChiuResume.3df36fb9.pdf",
+    "static/media/ErnestChiuResume.jpg": "/Website/static/media/ErnestChiuResume.43fa6ae8.jpg",
+    "static/media/picture.jpeg": "/Website/static/media/picture.b1a429d4.jpeg",
+    "static/media/projects.css": "/Website/static/media/tasks.6446b5b8.png"
+  }
+}
